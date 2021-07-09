@@ -55,7 +55,7 @@ function resetAll(){
         }
         else
         {
-            $("h1#level-title").text("Game Over Press on Start");
+            $("h1#level-title").text("Game Over your score is "+i+" press start to play again");
             $(".container").addClass("hide");
             $(".start").removeClass("hide");
              wrong();
