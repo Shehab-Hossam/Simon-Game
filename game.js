@@ -69,7 +69,7 @@ var i = 0;
 var colorArray = ["green","red","yellow","blue"];
 var count = 3;
 
-$("body").on("keydown", function(){
+$("body").on("click", function(){
     if (pressedButtons.length == 0)
     {
         randomButton = Math.floor(Math.random() * 4);
